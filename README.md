@@ -98,11 +98,11 @@ To get started, follow these steps:
 
 ## Client Side Live Link
 
-[eCom Fashion Client Side Live Link]()
+[eCom Fashion Client Side Live Link](https://fashion-ecommerce-client-ochre.vercel.app/)
 
 ## Server Side Live Link
 
-[eCom Fashion Server Side Live Link]()
+[eCom Fashion Server Side Live Link](https://fashion-ecommerce-server.onrender.com)
 
 ## Client Side Repo
 
