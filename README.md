@@ -106,11 +106,11 @@ To get started, follow these steps:
 
 ## Client Side Repo
 
-[eCom fashion Client Side Repo](https://github.com/Nafiz-Anam/fashion-ecommerce-client.git)
+[eCom fashion Client Side Repo](https://github.com/Nafiz-Anam/fashion-ecommerce-client)
 
 ## Server Side Repo
 
-[eCom fashion Server Side Repo](https://github.com/Nafiz-Anam/fashion-ecommerce-server.git)
+[eCom fashion Server Side Repo](https://github.com/Nafiz-Anam/fashion-ecommerce-server)
 
 
 We hope you find this to be a powerful and effective solution for your eCommerce needs. Should you encounter any issues or have any questions, please feel free to reach out to our support team at contact@nafizanam.com.
