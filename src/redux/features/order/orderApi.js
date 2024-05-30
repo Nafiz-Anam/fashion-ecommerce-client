@@ -7,7 +7,7 @@ export const authApi = apiSlice.injectEndpoints({
         // createPaymentIntent
         createPaymentIntent: builder.mutation({
             query: (data) => ({
-                url: "http://localhost:7000/api/order/create-payment-intent",
+                url: "https://fashion-ecommerce-server.onrender.com/api/order/create-payment-intent",
                 method: "POST",
                 body: data,
             }),
@@ -24,7 +24,7 @@ export const authApi = apiSlice.injectEndpoints({
         // saveOrder
         saveOrder: builder.mutation({
             query: (data) => ({
-                url: "http://localhost:7000/api/order/saveOrder",
+                url: "https://fashion-ecommerce-server.onrender.com/api/order/saveOrder",
                 method: "POST",
                 body: data,
             }),
@@ -44,13 +44,15 @@ export const authApi = apiSlice.injectEndpoints({
         }),
         // getUserOrders
         getUserOrders: builder.query({
-            query: () => `http://localhost:7000/api/user-order`,
+            query: () =>
+                `https://fashion-ecommerce-server.onrender.com/api/user-order`,
             providesTags: ["UserOrders"],
             keepUnusedDataFor: 600,
         }),
         // getUserOrders
         getUserOrderById: builder.query({
-            query: (id) => `http://localhost:7000/api/user-order/${id}`,
+            query: (id) =>
+                `https://fashion-ecommerce-server.onrender.com/api/user-order/${id}`,
             providesTags: (result, error, arg) => [
                 { type: "UserOrder", id: arg },
             ],

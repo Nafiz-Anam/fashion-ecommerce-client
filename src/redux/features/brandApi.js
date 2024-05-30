@@ -4,7 +4,8 @@ export const brandApi = apiSlice.injectEndpoints({
     overrideExisting: true,
     endpoints: (builder) => ({
         getActiveBrands: builder.query({
-            query: () => `http://localhost:7000/api/brand/active`,
+            query: () =>
+                `https://fashion-ecommerce-server.onrender.com/api/brand/active`,
         }),
     }),
 });

@@ -5,7 +5,8 @@ export const authApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         // get offer coupon
         getOfferCoupons: builder.query({
-            query: () => `http://localhost:7000/api/coupon`,
+            query: () =>
+                `https://fashion-ecommerce-server.onrender.com/api/coupon`,
             providesTags: ["Coupon"],
             keepUnusedDataFor: 600,
         }),
